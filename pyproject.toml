@@ -1,0 +1,10 @@
+[project]
+name = "binance-earn-strategy"
+version = "0.1.0"
+description = "Independent investment strategy using Binance Earn via python-binance"
+authors = [{name = "Your Name", email = "you@example.com"}]
+dependencies = ["python-binance>=1.0.0", "pydantic", "python-dotenv"]
+
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
